@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    
+    <title>Carteira de Motorista</title>
+    
+</head>
+<body>
+   <header>
+        <h1>Verificador de idade para habilitação</h1>
+   </header>
+   <form>
+        <label for="nomeVerifica">Digite seu nome:</label>
+        <input type="text" name="nomeVerifica" id="nomeVerifica">
+
+        <label for="idadeVerifica">Digite sua idade:</label>
+        <input type="number" name="idadeVerifica" id="idadeVerifica">
+
+        <input type="submit" value="Pode Dirigir?" onclick="podeDirigir()" id="idbotao">
+   </form>
+
+   <footer>&copy;Feito por Leandro Chaves</footer>
+
+</body>
+
+
+<script src="carteiraMotorista.js"></script>
+</html>

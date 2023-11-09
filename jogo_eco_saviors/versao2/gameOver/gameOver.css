@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Melted';
+    src: url('Melted\ Monster.ttf');
+}
+
+.gameOver{
+    background-image: url('https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2013/07/3d-wwi-1.gif');
+    background-size: cover;
+    color: rgba(107, 24, 24, 0.986);
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Melted';
+}
+
+footer{
+        font-size: 20px;
+        color: #F1E99A;
+        text-align: center;
+        font-size: bold;
+        background-color: #25230f9d;
+        margin-top: 173px;
+}
+@media (max-width: 600px){
+    .gameOver{
+        font-size: 80px;
+    }
+}
+
+footer{
+    margin-top: 440px;
+}

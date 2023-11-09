@@ -1,0 +1,30 @@
+body{
+ background-image: url(http://4.bp.blogspot.com/-mSmOYhsf_Sc/UN_KGA0ua7I/AAAAAAAAB18/RGgrpvaSUpY/s1600/fogos-de-artifico-coloridos.jpg);
+ background-size: cover;
+}
+h1{
+    color:chartreuse;
+    font-size: 300%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    border: solid black;
+    color: brown;
+}
+@media(max-width:700px){
+    *{
+        width: 100%;
+        height: 100%;
+       
+    }
+    img{
+        
+        width: 5%;
+        height: 5%;
+        margin-top: 5%;
+        padding: -50%;
+    }
+
+}

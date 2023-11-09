@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(100, 100, 173);
+}
+h1{
+    text-align: center;
+    color: white;
+    font: normal 50px arial;
+    font-style: oblique;
+}
+section{
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+}
+#txtn{
+    margin-right: 15%;
+}
+div{
+    padding: 5%;
+}
+p{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}

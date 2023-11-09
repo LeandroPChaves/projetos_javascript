@@ -1,0 +1,111 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i0.wp.com/vitalatman.com.br/blog/wp-content/uploads/2021/06/imagem-1-16.jpg?fit=620%2C413&ssl=1);
+    background-size: cover;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+    color: rgb(21, 87, 21);
+}
+h2{
+    font-size: 250%;
+    font-style: italic;
+    text-align: center;
+    color: rgb(21, 87, 21);
+}
+.apresentacao{
+    
+    padding: -2%;
+    margin-right: -5%;
+    margin-top: 1%;
+    font-size: 100%;
+    color: rgb(4, 63, 4);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fase{
+    font-size: 20px;
+    color: rgb(4, 63, 4);
+    font-weight: bolder;
+    margin-top: 10%;
+}
+#inicial{
+    margin-left: 86%;
+    margin-top: -1%;
+    
+}
+img{
+    margin-top: -20%;
+    height: 180px;
+    width: 140px;
+    margin-left: 1%;
+    border-radius: 20%;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(green,rgb(23, 182, 9));
+    color: blanchedalmond;
+}
+#inicial a:hover{
+    color: olivedrab;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(4, 63, 4);
+    border: solid;
+    padding: 5px;
+}
+
+@media(max-width:700px){
+    body{
+        box-sizing: border-box;
+        display: inline-block;
+        height: 620px
+    }
+    h1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        height: 140px;
+    }
+    .apresentacao {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: -1%;
+        margin-bottom: 5%;
+        font-size: 65%;
+        text-align: left;
+    }
+    .fase{  
+        display: flex;
+        position: top;
+        flex-direction: initial; 
+        font-size: 100%;
+        margin-top: -5%;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+    }
+    #inicial{
+        margin: 0 37%;
+        background: rgb(109, 136, 83);
+    }
+    
+ 
+    
+} 

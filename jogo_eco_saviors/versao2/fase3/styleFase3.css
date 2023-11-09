@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Tragicastle';
+    src: url('../fase1/Tragicastle.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+@font-face {
+    font-family: 'TOMORROW';
+    src: url('../fase1/TOMORROW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    /* background-image: url('https://1.bp.blogspot.com/-AzwzIUyUjQ0/UAV9pH-AQwI/AAAAAAAAIck/fXPqyJJGXu0/s1600/Wallpaper+-+Guerra+3d.jpg'); */
+    background-image: url('fundoFase3.png');
+    background-size: cover;
+    color: #452c08;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecario{
+    margin: auto;
+    text-align: center;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 30px;
+}
+#boasVindas{
+    text-align: center;
+    font-family: Tragicastle;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 500px 137px 0;
+    color: #452c08;
+    font-weight: bold;
+}
+#pjogar{
+    margin: 30px  10px;
+    width: 300px;
+    min-width: 200px;
+    background-color: #614d2e81;
+    color: #E8C8A1;
+}
+#h3jogando{
+    font-family: TOMORROW;
+    font-size: 30px;
+    color: #E8C8A1;
+    background-color: #614d2e81;
+}
+img{
+    height: 200px;
+    margin-top: 50px;
+}
+#imgBiologo{
+    height: 230px;
+}
+.principal{
+    margin-top: 30px;
+    
+}
+.secundaria{
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    margin: 15px 15px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 1px #ececad49;
+    height: 320px;
+}
+.secundariaBiologo{
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 1px #ececad49;
+}
+.botao .botaoVoltar{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+}
+
+.botao input{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+}
+input{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.botaoVoltar a{
+    text-decoration: none;
+    color: #f5edab;
+    
+}
+
+footer{
+    background-color: #614d2e81;
+    color: rgb(243, 235, 235); 
+    font-weight: bold;
+    text-align: center;
+    margin-top: -17px;
+}
+
+.botao :hover{
+    color: #1f1c07;
+    font-weight: bold;
+    transition: 1s;
+    background: linear-gradient(to right, #614d2e, #c7841f)  ;
+}
+
+/* @media(max-width:1280px){
+    footer{
+        margin-top: 250px;
+        padding: 10px;
+        font-size: 16px;
+    } 
+} */
+
+@media(max-width:1024px){
+    
+    #boasVindas{
+        font-size: 35px;
+    }
+    #apresentacao{
+        margin: 30px 0;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #imgGuarda{
+        height: 300px; 
+    }
+    #imgHeroina{
+        height: 230px;
+    }
+    #imgBiologo{
+        height: 230px;
+    }
+    .principal{
+        width: 900px;
+        margin: -10px 10px;
+        justify-content: space-between;
+    }
+    .secundaria{
+        font-size: 25px;
+        height: 500px;
+        margin-left: 80px;
+        width: 800px;
+    }
+    #pjogar{
+        width: 400px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    #h3jogando{
+        margin-top: -20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .botao input{
+        width: 220px;
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 220px;
+        margin: 10px 0;
+    }
+    .botaoVoltar{
+        font-size: 18px;
+    }
+     footer{
+        margin-top: 665px;
+        padding: 10px;
+        font-size: 16px;
+    } 
+} 
+
+@media(max-width:915px){
+    
+    #boasVindas{
+        font-size: 25px;
+    }
+    #apresentacao{
+        margin: 10px 0;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #imgGuarda{
+        height: 200px;
+    }
+    #imgHeroina{
+        height: 150px;
+    }
+    #imgBiologo{
+        height: 150px;
+    }
+    .principal{
+        margin: 40px 0 0 1px;
+        height: 400px;
+        width: 500px;
+    }
+    .secundaria{
+        font-size: 14px;
+        height: 400px;
+        margin-left: 220px;
+        width: 3000px;
+    }
+    #pjogar{
+        width: 1px;
+        margin-left: 10px;
+        font-weight: bolder;
+    }
+    #h3jogando{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .botao input{
+        width: 180px;
+        margin: 10px 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 180px;
+        margin: 10px 0;
+    }
+    .botaoVoltar{
+        font-size: 15px;
+    }
+     footer{
+       margin-top: 800px; 
+    } 
+} 
+
+@media(max-width:700px){
+    
+    #boasVindas{
+        font-size: 30px;
+    }
+    #apresentacao{
+        margin: 5px 0;
+        font-size: 16px;
+        max-width: 98%;
+        text-align: center;
+    }
+    #imgGuarda{
+        height: 160px; 
+    }
+    #imgHeroina{
+        height: 130px;
+    }
+    #imgBiologo{
+        height: 130px;
+    }
+    .principal{
+        width: 480px;
+        margin: -10px 38px;
+        justify-content: space-between;
+    }
+    .secundaria{
+        font-size: 12px;
+        height: 300px;
+        margin-left: 50px;
+        width: 300px;
+    }
+    #pjogar{
+        width: 100px;
+        margin: 2px 0 5px 1px;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 16px;
+    }
+    .botao input{
+        width: 140px;
+        margin: 10px 0;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 140px;
+        margin: 10px 0;
+    }
+    .botaoVoltar{
+        font-size: 13px;
+    }
+     footer{
+        margin-top: 126px;
+        padding: 6px;
+        font-size: 12px;
+    } 
+} 
+
+ @media(max-width:540px){
+    
+    #boasVindas{
+        font-size: 20px;
+    }
+    #apresentacao{
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+    #imgGuarda{
+        height: 150px;
+    }
+    #imgHeroina{
+        height: 120px;
+    }
+    #imgBiologo{
+        height: 120px;
+    }
+    .principal{
+        width: 250px;
+        margin: -20px 80px;
+    }
+    .secundaria{
+        font-size: 13px;
+    }
+    #pjogar{
+        width: 1px;
+        margin-left: -2px;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 17px;
+    }
+    .botao input{
+        width: 125px;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    .botao .botaoVoltar{
+        width: 125px;
+        margin: 10px 0;
+    }
+    .botaoVoltar{
+        font-size: 12px;
+    }
+     footer{
+        margin-top: 370px;
+        padding: 6px;
+        font-size: 12px;
+    } 
+} 
+@media(max-width:414px){
+    
+    #boasVindas{
+        font-size: 18px;
+        text-align: center;
+    }
+    #apresentacao{
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+    #imgGuarda{
+        height: 150px;
+    }
+    #imgHeroina{
+        height: 115px;
+    }
+    #imgBiologo{
+        height: 110px;
+    }
+    .principal{
+        width: 210px;
+        margin: 5px 10px;
+    }
+    .secundaria{
+        font-size: 11px;
+        width: 50%;
+        height: 270px;
+        margin-left: -5px;
+    }
+    #pjogar{
+        width: 1px;
+        margin-left: -50px;
+        background-color: rgba(255, 255, 255, 0);
+        color: #452c08;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 17px;
+        background-color: rgba(255, 255, 255, 0);
+        color: #452c08;
+    }
+    .botao input{
+        width: 130px;
+        margin: 10px -15px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 130px;
+        margin-left: -13px;
+    }
+    .botaoVoltar{
+        font-size: 12px;
+    }
+     footer{
+        margin-top: 445px;
+        padding: 4px;
+        font-size: 11px;
+    } 
+}
+
+
+@media(max-width:380px){
+   
+    #boasVindas{
+        font-size: 18px;
+    }
+    #apresentacao{
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+    #imgGuarda{
+        height: 150px;
+        margin-left: 10px;
+    }
+    #imgHeroina{
+        height: 100px;
+        margin-left: 10px;
+    }
+    #imgBiologo{
+        height: 100px;
+        margin-left: 15px;
+    }
+    .principal{
+        width: 200px;
+        margin: 20px -22px;
+    }
+    .secundaria{
+        font-size: 11px;
+        width: 50%;
+        height: 300px;
+        margin-left: -1px;
+        
+    }
+    #pjogar{
+        width: 1px;
+        margin:5px 0 0 -50px;
+        background-color: rgba(255, 255, 255, 0);
+        color: #452c08;
+        font-weight: bolder;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 17px;
+        background-color: rgba(255, 255, 255, 0);
+        color: #452c08;
+        font-weight: bolder;
+    }
+    .botao input{
+        width: 130px;
+        margin: 10px -20px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 130px;
+        margin-left: -15px;
+    }
+    .botaoVoltar{
+        font-size: 12px;
+    }
+     footer{
+        margin-top: 292px;
+        padding: 4px;
+        font-size: 11px;
+    } 
+}
+
+@media(max-width:330px){
+    
+    #boasVindas{
+        font-size: 15px;
+    }
+    #apresentacao{
+        font-size: 10px;
+        text-align: center;
+    }
+    #imgGuarda{
+        height: 120px;
+    }
+    #imgHeroina{
+        height: 80px;
+    }
+    #imgBiologo{
+        height: 80px;
+    }
+    .principal{
+        margin: 10px -10px;
+    }
+    .secundaria{
+        font-size: 9px;
+        height: 220px;
+        width: 100px;
+        margin-left: 3px;
+    }
+    #pjogar{
+        font-size: 8px;
+        
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 15px;
+    }
+    .botao input{
+        width: 100px;
+        margin: 10px 0;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 100px;
+        margin-left: 2px;
+    }
+    .botaoVoltar{
+        font-size: 9px;
+    }
+     footer{
+        margin-top: 142px;
+        padding: 3px;
+        font-size: 10px;
+    } 
+}
+
+@media(max-width:280px){
+    
+    #boasVindas{
+        font-size: 15px;
+        text-align: center;
+    }
+    #apresentacao{
+        font-size: 10px;
+    }
+    #imgGuarda{
+        height: 80px;
+    }
+    #imgHeroina{
+        height: 100px;
+    }
+    #imgBiologo{
+        height: 100px;
+    }
+    .principal{
+        display: inline-block;
+        width: 135px;
+        margin-top: -70px;
+        margin-left: 65px;
+    }
+    .secundaria{
+        font-size: 10px;
+        width: 70%;
+        height: 220px;
+        margin-left: -30px;
+    }
+    p #pjogar{
+        height: 100px;
+        width: 15px;
+        font-size: 6px;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 12px;
+    }
+    .botao input{
+        width: 100px;
+        margin: 10px 0;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 100px;
+        margin-left: 1px;
+    }
+    .botaoVoltar{
+        font-size: 10px;
+    }
+     footer{
+        margin-top: 200px;
+        padding: 3px;
+        font-size: 10px;
+
+    } 
+}
+/* @media(min-width:1440px){
+    
+     footer{
+        margin-top: 250px;
+        padding: 10px;
+        font-size: 16px;
+    } 
+}  */

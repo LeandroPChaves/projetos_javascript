@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://static4.depositphotos.com/1000423/399/i/600/depositphotos_3995714-stock-photo-our-own-earth.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+    color: rgb(21, 87, 21);
+}
+.apresentacao{
+    margin-left: 80%;
+    margin-top: -13%;
+    font-size: 100%;
+    color: rgb(4, 63, 4);
+    border: solid;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fase{
+    font-size: 20px;
+    color: rgb(4, 63, 4);
+    font-weight: bolder;
+    margin-top: 10%;
+}
+#inicial{
+    margin-left: 86%;
+    margin-top: -1%;
+    
+}
+img{
+    height: 180px;
+    width: 140px;
+    margin-left: 1%;
+    border-radius: 20%;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(green,rgb(23, 182, 9));
+    color: blanchedalmond;
+}
+#inicial a:hover{
+    color: olivedrab;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(4, 63, 4);
+    border: solid;
+    padding: 5px;
+}
+
+@media(max-width:700px){
+    body{
+        box-sizing: border-box;
+        display: inline-block;
+       
+    }
+    
+    
+    h1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        
+    }
+    .apresentacao {
+        margin-top: 10%;
+        margin-left: -1%;
+        margin-bottom: 5%;
+        font-size: 65%;
+        text-align: left;
+        
+        
+
+    }
+    .fase{  
+        display: flex;
+        position: top;
+        flex-direction: initial; 
+        font-size: 100%;
+        margin-top: 1%;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+    }
+    #inicial{
+        margin: 0 35%;
+    }
+    
+ 
+    
+} 

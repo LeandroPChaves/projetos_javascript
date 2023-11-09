@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://images01.brasildefato.com.br/15dec761f3d9417469ab80161f32daaa.jpeg);
+    background-size: cover;
+
+}
+h1{
+    font-size: 140px;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-size: 70px;
+    text-align: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+    border: solid black;
+    color: brown;
+}
+@media(max-width:700px){
+    h1{
+        margin-top:-6%;
+    }
+}

@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Vehicle';
+    src: url('VehicleBreaksDown-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+@font-face {
+    font-family: 'Inlanders';
+    src: url('Inlanders\ Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+body{
+    background-image: url('https://getwallpapers.com/wallpaper/full/2/9/7/101934.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Vehicle';
+    font-size: 60px;
+    text-align: center;
+    margin-top: -30px;
+    color: #452c08; 
+    margin-bottom: 80px;
+}
+
+h2{
+   font-family: 'Inlanders'; 
+   font-size: 20px;
+   text-align: left;
+   color: #452c08;
+   width: 30%;
+   margin: 30px 30px;
+}
+
+.imagem{
+    height: 150px;
+    margin: 20px 5px;
+}
+
+.imgBiologo{
+    height: 140px;
+    margin-bottom: 33px;
+}
+
+.missao{
+    margin: -320px 10px 20px 75%;
+    font-weight: bold;
+    border: double;
+    border-radius: 10px;
+    max-width: 20%;
+    font-size: 18px;
+    padding: 15px;
+    color: #452c08;
+    box-shadow: 3px 2px 5px 1px #f7f7a149;
+}
+
+.botaoVoltar{
+    margin-left: 55px;
+}
+
+.botao{
+    margin-left: 75%;
+    margin-top: 40px;
+}
+
+.botaoVoltar a{
+    text-decoration: none;
+    color: #f5edab;
+}
+
+.botaoJogar{
+    cursor: pointer;
+}
+
+input, button{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+
+}
+
+footer{
+    background-color: #452c08;
+    color: rgb(243, 235, 235); 
+    font-weight: bold;
+    text-align: center;
+    margin-top: 245px;
+}
+
+.botao :hover{
+    color: #1f1c07;
+    font-weight: bold;
+    transition: 1s;
+    background: linear-gradient(to right, #614d2e, #c7841f)  ;
+}
+
+/* @media(max-width:1300px){ 
+   body{
+      background-position: center;
+      color: #452c08;
+   }
+   h1{
+     margin-top: 1px;
+      font-size: 25px;
+   }
+   h2{
+      
+      font-size: 16px;
+      width: 200px;
+   }
+   .imagem{
+      margin-top: 1px;
+      width: 120px;
+      height: 110px;
+   }
+   .missao{
+      font-size: 18px;
+      margin-left: 990px;
+      margin-top: -350px;  
+      width: 150px;
+      text-align: center;
+   }
+   .botaoJogar{
+      margin-top: -40px;
+      margin-left: 44px;
+      width: 160px;
+      margin-bottom: 40px;
+      font-size: 12px;
+   }
+   .botaoVoltar{
+      margin-left: 44px;
+      width: 160px;
+      font-size: 12px;
+   }
+   footer{
+      margin-top: 110px;
+      padding: 5px;
+   }
+  } */
+
+   @media(max-width:1180px){
+   body{
+      background-position: center;
+      color: #452c08;
+   }
+   h1{
+     margin-top: 1px;
+      font-size: 25px;
+   }
+   h2{
+      
+      font-size: 16px;
+      width: 200px;
+   }
+   .imagem{
+      margin-top: 1px;
+      width: 120px;
+      height: 110px;
+   }
+   .missao{
+      font-size: 18px;
+      margin-left: 915px;
+      margin-top: -325px;
+      width: 150px;
+      text-align: center;
+   }
+   .botaoJogar{
+      margin-top: -40px;
+      margin-left: 44px;
+      width: 160px;
+      margin-bottom: 40px;
+      font-size: 12px;
+   }
+   .botaoVoltar{
+      margin-left: 44px;
+      width: 160px;
+      font-size: 12px;
+   }
+   footer{
+      margin-top: 110px;
+      padding: 5px;
+   }
+  }
+ 
+
+
+@media(max-width:1024px){
+   body{
+      /* background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1'); */
+      background-position: center;
+      color: #452c08;
+   }
+   h1{
+     margin-top: 1px;
+      font-size: 25px;
+   }
+   h2{
+      
+      font-size: 16px;
+      width: 200px;
+   }
+   .imagem{
+      margin-top: 1px;
+      width: 120px;
+      height: 110px;
+   }
+   .missao{
+      font-size: 18px;
+      margin-left: 800px;
+      margin-top: -350px;
+      width: 150px;
+      text-align: center;
+   }
+   .botaoJogar{
+      margin-top: -40px;
+      margin-left: 44px;
+      width: 160px;
+      margin-bottom: 40px;
+      font-size: 12px;
+   }
+   .botaoVoltar{
+      margin-left: 44px;
+      width: 160px;
+      font-size: 12px;
+   }
+   footer{
+      margin-top: 110px;
+      padding: 5px;
+   }
+  }
+
+
+@media(max-width:915px){
+   body{
+      /* background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1'); */
+      background-position: center;
+      color: #452c08;
+   }
+   h1{
+     margin-top: 1px;
+      font-size: 24px;
+   }
+   h2{
+      
+      font-size: 16px;
+      width: 200px;
+   }
+   .imagem{
+      margin-top: 1px;
+      width: 120px;
+      height: 110px;
+   }
+   .missao{
+      font-size: 22px;
+      margin-left: 700px;
+      margin-top: -350px;
+      width: 150px;
+      text-align: center;
+   }
+   .botaoJogar{
+      margin-top: -40px;
+      margin-left: 20px;
+      width: 160px;
+      margin-bottom: 40px;
+      font-size: 12px;
+   }
+   .botaoVoltar{
+      margin-left: 20px;
+      width: 160px;
+      font-size: 12px;
+   }
+   footer{
+      margin-top: 450px;
+      padding: 5px;
+   }
+  }
+
+
+@media(max-width:851px){
+    body{
+       /* background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1'); */
+       background-position: center;
+       color: #452c08;
+    }
+    h1{
+      margin-top: 1px;
+       font-size: 23px;
+    }
+    h2{
+       
+       font-size: 15px;
+       width: 200px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 100px;
+       height: 95px;
+    }
+    .missao{
+       font-size: 18px;
+       margin-left: 625px;
+       margin-top: -345px;
+       width: 150px;
+       text-align: center;
+    }
+    .botaoJogar{
+       margin-top: -40px;
+       margin-left: 20px;
+       width: 160px;
+       margin-bottom: 40px;
+       font-size: 12px;
+    }
+    .botaoVoltar{
+       margin-left: 20px;
+       width: 160px;
+       font-size: 12px;
+    }
+    footer{
+       margin-top: 548px;
+    }
+   }
+
+   @media(max-width:768px){
+      body{
+         background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+         background-position: center;
+         
+      }
+      h1{
+        margin-top: 1px;
+         font-size: 23px;
+         color: #F1E99A;
+      }
+      h2{
+         font-size: 15px;
+         width: 200px;
+         color: #F1E99A;
+      }
+      .imagem{
+         margin-top: 1px;
+         width: 100px;
+         height: 95px;
+      }
+      .missao{
+         font-size: 18px;
+         margin-left: 570px;
+         margin-top: -345px;
+         width: 150px;
+         text-align: center;
+         color: #F1E99A;
+      }
+      .botaoJogar{
+         margin-top: -40px;
+         margin-left: 5px;
+         width: 160px;
+         margin-bottom: 40px;
+         font-size: 12px;
+      }
+      .botaoVoltar{
+         margin-left: 5px;
+         width: 160px;
+         font-size: 12px;
+      }
+      footer{
+         margin-top: 391px;
+      }
+     }
+
+     @media(max-width:740px){
+      body{
+         background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+         background-position: center;
+      }
+      h1{
+         font-size: 20px;
+         color: #F1E99A;
+      }
+      h2{
+         margin-top: -60px;
+         font-size: 12px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .imagem{
+         margin-top: 1px;
+         width: 90px;
+         height: 80px;
+      }
+      .missao{
+         font-size: 11px;
+         margin-left: 550px;
+         margin-top: -270px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .botaoJogar{
+         margin-top: -10px;
+         margin-left: 30px;
+         width: 120px;
+         margin-bottom: 40px;
+         font-size: 10px;
+      }
+      .botaoVoltar{
+         margin-left: 30px;
+         width: 120px;
+         font-size: 10px;
+      }
+      footer{
+         margin-top: 258px;
+      }
+     }
+  
+
+     @media(max-width:672px){
+      body{
+         background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+         background-position: center;
+      }
+      h1{
+         font-size: 20px;
+         color: #F1E99A;
+      }
+      h2{
+         margin-top: -60px;
+         font-size: 12px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .imagem{
+         margin-top: 1px;
+         width: 90px;
+         height: 80px;
+      }
+      .missao{
+         font-size: 11px;
+         margin-left: 445px;
+         margin-top: -270px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .botaoJogar{
+         margin-top: -10px;
+         margin-left: -15px;
+         width: 100px;
+         margin-bottom: 40px;
+         font-size: 10px;
+      }
+      .botaoVoltar{
+         margin-left: -15px;
+         width: 100px;
+         font-size: 10px;
+      }
+      footer{
+         margin-top: 258px;
+      }
+     }
+  
+
+     @media(max-width:640px){
+      body{
+         background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+         background-position: center;
+      }
+      h1{
+         font-size: 20px;
+         color: #F1E99A;
+      }
+      h2{
+         margin-top: -60px;
+         font-size: 12px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .imagem{
+         margin-top: 1px;
+         width: 90px;
+         height: 80px;
+      }
+      .missao{
+         font-size: 11px;
+         margin-left: 365px;
+         margin-top: -270px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .botaoJogar{
+         margin-top: -10px;
+         margin-left: -15px;
+         width: 100px;
+         margin-bottom: 40px;
+         font-size: 10px;
+      }
+      .botaoVoltar{
+         margin-left: -15px;
+         width: 100px;
+         font-size: 10px;
+      }
+      footer{
+         margin-top: 258px;
+      }
+     }
+  
+
+  
+@media(max-width:414px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 18px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 11px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 80px;
+       height: 70px;
+    }
+    .missao{
+       font-size: 11px;
+       margin-left: 270px;
+       margin-top: -230px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -25px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -25px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+      margin-top: 425px;
+    }
+   }
+   @media(max-width:393px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 20px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 12px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 90px;
+       height: 80px;
+    }
+    .missao{
+       font-size: 11px;
+       margin-left: 268px;
+       margin-top: -270px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -15px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -15px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+       margin-top: 419px;
+    }
+   }
+
+@media(max-width:375px){
+ body{
+    background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+    background-position: center;
+ }
+ h1{
+    font-size: 18px;
+    color: #F1E99A;
+ }
+ h2{
+    margin-top: -60px;
+    font-size: 11px;
+    color: #F1E99A;
+    width: 150px;
+ }
+ .imagem{
+    margin-top: 1px;
+    width: 90px;
+    height: 80px;
+ }
+
+ 
+ .missao{
+    font-size: 9px;
+    margin-left: 260px;
+    margin-top: -240px;
+    color: #F1E99A;
+    width: 150px;
+ }
+ .botaoJogar{
+    margin-top: -10px;
+    margin-left: -15px;
+    width: 100px;
+    margin-bottom: 40px;
+    font-size: 10px;
+ }
+ .botaoVoltar{
+    margin-left: -15px;
+    width: 100px;
+    font-size: 10px;
+ }
+ footer{
+    margin-top: 240px;
+ }
+}
+
+@media(max-width:360px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 18px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 11px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 90px;
+       height: 80px;
+    }
+   
+    
+    .missao{
+       font-size: 9px;
+       margin-left: 250px;
+       margin-top: -240px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -15px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -15px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+       margin-top: 303px;
+    }
+   }
+
+   @media(max-width:280px){
+      body{
+         background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+         background-position: center;
+      }
+      h1{
+         font-size: 15px;
+         color: #F1E99A;
+      }
+      h2{
+         margin-top: -60px;
+         font-size: 9px;
+         color: #F1E99A;
+         width: 100px;
+      }
+      .imagem{
+         margin-top: 1px;
+         width: 80px;
+         height: 70px;
+      }
+     
+      
+      .missao{
+         font-size: 9px;
+         margin-left: 185px;
+         margin-top: -240px;
+         color: #F1E99A;
+         width: 150px;
+      }
+      .botaoJogar{
+         margin-top: -10px;
+         margin-left: -18px;
+         width: 80px;
+         margin-bottom: 40px;
+         font-size: 8px;
+      }
+      .botaoVoltar{
+         margin-left: -18px;
+         width: 80px;
+         font-size: 8px;
+      }
+      footer{
+         margin-top: 119px;
+      }
+   }
